@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brogue &amp; Bloom - Rooted in Craft. Blooming in Style</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== GLOBAL NAVBAR ==================== -->
+  <header class="header">
+    <div class="container navbar">
+      <div class="logo">
+        <a href="#home" class="breathing-logo">Brogue <span>&amp;</span> Bloom</a>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="active-tab">Home</a></li>
+
+        <li class="has-dropdown">
+          <a href="#about">About ▾</a>
+          <div class="dropdown-pane">
+            <h4>Our Heritage</h4>
+            <p>Founded in Bengaluru, we merge generational cobbling techniques with modern architectural tailoring.</p>
+            <a href="#about" class="dropdown-link">Read Our Full Story →</a>
+          </div>
+        </li>
+
+        <li class="has-dropdown">
+          <a href="#collection-grid">Collections ▾</a>
+          <div class="dropdown-pane">
+            <h4>Curated Lines</h4>
+            <ul>
+              <li><a href="#collection-grid">The Duke Wingtip Brogues</a></li>
+              <li><a href="#collection-grid">Oxford &amp; Derby Classics</a></li>
+              <li><a href="#collection-grid">Monk Straps &amp; Boots</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="has-dropdown">
+          <a href="#more">Heritage ▾</a>
+          <div class="dropdown-pane">
+            <h4>Artisan Craft</h4>
+            <p>Full-grain calfskin leather, hand-burnished patinas, and Goodyear-welted soles built to last a lifetime.</p>
+          </div>
+        </li>
+
+        <li class="has-dropdown">
+          <a href="#contact">Contact ▾</a>
+          <div class="dropdown-pane">
+            <h4>Flagship Store</h4>
+            <p>Rajajinagar, Bengaluru - 560010<br>Ph: +91 81979 23241</p>
+          </div>
+        </li>
+      </ul>
+
+      <div class="nav-actions">
+        <div class="search-box">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#78716C" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" placeholder="Search craft...">
+        </div>
+        <a href="#cart" class="cart-btn" aria-label="Shopping Cart">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="cart-badge">4</span>
+        </a>
+        <a href="#profile" class="profile-avatar">
+          <img src="GaneshG.png" alt="Ganesh Sanjay Gaikwad">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== 1. HERO SECTION ==================== -->
+  <section id="home" class="page-section hero-page scroll-animate">
+    <div class="hero-container">
+      <div class="hero-text-col">
+        <div class="hero-brand">
+          <span class="brand-subtext">HANDCRAFTED HERITAGE</span>
+          <span class="brand-sub">EST. 2026</span>
+        </div>
+        <h1 class="hero-heading">
+          Rooted in Craft. <br>Blooming in <span class="highlight-cognac">Style.</span>
+        </h1>
+        <p class="hero-desc">
+          Meticulously hand-burnished leathers, classic broguing, and modern architectural contours engineered for timeless elegance.
+        </p>
+        <a href="#collection-grid" class="btn btn-emerald animated-hero-btn">Explore Collection</a>
+      </div>
+      <div class="hero-img-col">
+        <div class="shoe-preview-wrapper floating-shoe">
+          <img src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=800&q=80" alt="Brogue & Bloom Artisan Leather Brogue" class="hero-shoe-img">
+          <div class="pin-badge">B&amp;B</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- STATS BAR -->
+    <div class="stats-bar">
+      <div class="container stats-grid">
+        <div class="stat-item">
+          <div class="stat-icon">👑</div>
+          <div><h3>2k+</h3><p>Patrons</p></div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">📜</div>
+          <div><h3>30k+</h3><p>Craft Hours</p></div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">✨</div>
+          <div><h3>Royal</h3><p>Full-Grain Leather</p>
+        </div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">⭐</div>
+          <div><h3>4.9/5</h3><p>Rating</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 2. 4-PRODUCT LISTING GRID ==================== -->
+  <section id="collection-grid" class="page-section collection-section scroll-animate">
+    <div class="container">
+      <div class="section-header-centered">
+        <span class="eyebrow-tag">Bespoke Catalog</span>
+        <h2 class="section-title">The Royal Footwear Edit</h2>
+        <p class="section-subtitle">Handcrafted masterpieces built with Goodyear-welted full-grain leather.</p>
+      </div>
+
+      <div class="products-grid-4">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <div class="product-img-wrapper">
+            <span class="product-badge">Bestseller</span>
+            <img src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=600&q=80" alt="The Duke Wingtip">
+            <div class="product-overlay-actions">
+              <a href="#cart" class="quick-atc-btn">Quick Add</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <span class="product-category">Wingtip Brogue</span>
+            <h3 class="product-item-title">The Duke Hand-Burnished Cognac</h3>
+            <div class="product-price-row">
+              <span class="item-price">₹ 14,999</span>
+              <span class="rating-stars">★ 4.9</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <div class="product-img-wrapper">
+            <span class="product-badge accent-badge">Limited</span>
+            <img src="https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80" alt="Oxford Black">
+            <div class="product-overlay-actions">
+              <a href="#cart" class="quick-atc-btn">Quick Add</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <span class="product-category">Formal Oxford</span>
+            <h3 class="product-item-title">The Windsor Jet-Black Captoe</h3>
+            <div class="product-price-row">
+              <span class="item-price">₹ 16,499</span>
+              <span class="rating-stars">★ 5.0</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <div class="product-img-wrapper">
+            <span class="product-badge">New Release</span>
+            <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80" alt="Monk Strap">
+            <div class="product-overlay-actions">
+              <a href="#cart" class="quick-atc-btn">Quick Add</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <span class="product-category">Double Monk Strap</span>
+            <h3 class="product-item-title">The Kensington Oxblood Leather</h3>
+            <div class="product-price-row">
+              <span class="item-price">₹ 15,299</span>
+              <span class="rating-stars">★ 4.8</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+          <div class="product-img-wrapper">
+            <span class="product-badge accent-badge">Classic</span>
+            <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80" alt="Leather Derby">
+            <div class="product-overlay-actions">
+              <a href="#cart" class="quick-atc-btn">Quick Add</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <span class="product-category">Classic Derby</span>
+            <h3 class="product-item-title">The Regent Chestnut Plain-Toe</h3>
+            <div class="product-price-row">
+              <span class="item-price">₹ 13,899</span>
+              <span class="rating-stars">★ 4.9</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 3. SHOPPING CART PAGE ==================== -->
+  <section id="cart" class="page-section cart-page scroll-animate">
+    <div class="container">
+      <h1 class="page-title">Shopping Bag</h1>
+
+      <div class="cart-grid">
+        <div class="cart-items-wrapper">
+          <table class="cart-table">
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Pair(s)</th>
+                <th>Price</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="item-name">The Duke Hand-Burnished Brogue (UK 9)</td>
+                <td class="item-qty"><button>-</button> <span>1</span> <button>+</button></td>
+                <td class="item-price-val">₹14,999</td>
+                <td class="item-remove"><button class="btn-remove">×</button></td>
+              </tr>
+              <tr>
+                <td class="item-name">Royal Cedarwood Shoe Tree &amp; Polish Kit</td>
+                <td class="item-qty"><button>-</button> <span>1</span> <button>+</button></td>
+                <td class="item-price-val">₹2,499</td>
+                <td class="item-remove"><button class="btn-remove">×</button></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="continue-shopping">
+            <a href="#home">&lt; Back to Home &amp; Explore</a>
+          </div>
+        </div>
+
+        <div class="summary-card">
+          <label class="coupon-label">Enter Privilege / Coupon Code</label>
+          <div class="coupon-input-group">
+            <input type="text" placeholder="ROYAL10">
+            <button class="btn btn-emerald-sm">Apply Code</button>
+          </div>
+
+          <div class="summary-rows">
+            <div class="row"><span>Sub Total</span> <span>₹17,498</span></div>
+            <div class="row"><span>Complimentary Shipping</span> <span>FREE</span></div>
+            <div class="row"><span>Privilege Discount</span> <span>-₹1,498</span></div>
+            <hr>
+            <div class="row total-row"><span>Total</span> <span>₹16,000</span></div>
+          </div>
+
+          <a href="#checkout" class="btn btn-cognac btn-block">Proceed to Checkout ₹16,000</a>
+          <div class="payment-badges">
+            <span>🛡️ SECURE ENCRYPTION</span>
+            <span class="razorpay-text"><em>Razorpay</em></span>
+            <span>🔒 VERIFIED CRAFT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 4. CHECKOUT PAGE (INTERACTIVE TABS) ==================== -->
+  <section id="checkout" class="page-section checkout-page scroll-animate">
+    <div class="checkout-split">
+      <!-- Hidden Radio inputs to toggle payment views -->
+      <input type="radio" name="payment-method" id="pay-card" checked class="pay-toggle-radio">
+      <input type="radio" name="payment-method" id="pay-netbanking" class="pay-toggle-radio">
+      <input type="radio" name="payment-method" id="pay-upi" class="pay-toggle-radio">
+
+      <!-- Left Form Col -->
+      <div class="checkout-left">
+        <span class="checkout-sub">Brogue &amp; Bloom Checkout</span>
+        
+        <div class="form-section">
+          <h3>Contact &amp; Delivery Details</h3>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="ganesh.gaikwad@domain.com">
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h3>Payment Method</h3>
+          
+          <div class="payment-tabs">
+            <label for="pay-card" class="pay-tab card-tab">
+              <span class="tab-icon">💳</span>
+              <span>Card</span>
+            </label>
+            <label for="pay-netbanking" class="pay-tab netbanking-tab">
+              <span class="tab-icon">🏛️</span>
+              <span>Net Banking</span>
+            </label>
+            <label for="pay-upi" class="pay-tab upi-tab">
+              <span class="tab-icon">📱</span>
+              <span>UPI / QR</span>
+            </label>
+          </div>
+
+          <!-- OPTION 1: CARD FORM -->
+          <div class="payment-content-box card-form-content">
+            <div class="form-card-box">
+              <div class="form-group">
+                <label>Name on Card</label>
+                <input type="text" placeholder="Ganesh Gaikwad">
+              </div>
+              <div class="form-group">
+                <label>Card Number</label>
+                <input type="text" placeholder="4000 1234 5678 9010">
+              </div>
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label>Expiry Date</label>
+                  <input type="text" placeholder="MM/YY">
+                </div>
+                <div class="form-group">
+                  <label>CVC / CVV</label>
+                  <input type="password" placeholder="***">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- OPTION 2: NET BANKING FORM -->
+          <div class="payment-content-box netbanking-form-content">
+            <div class="form-card-box">
+              <div class="form-group">
+                <label>Select Preferred Bank</label>
+                <select>
+                  <option>HDFC Bank</option>
+                  <option>ICICI Bank</option>
+                  <option>State Bank of India (SBI)</option>
+                  <option>Axis Bank</option>
+                  <option>Kotak Mahindra Bank</option>
+                </select>
+              </div>
+              <p class="tab-instruction-text">You will be redirected securely to your bank's net banking portal to authorize ₹16,000.</p>
+            </div>
+          </div>
+
+          <!-- OPTION 3: UPI / QR FORM -->
+          <div class="payment-content-box upi-form-content">
+            <div class="form-card-box text-center">
+              <div class="form-group">
+                <label>Enter UPI Virtual Payment Address (VPA)</label>
+                <input type="text" placeholder="username@okhdfcbank / ybl">
+              </div>
+              <div class="upi-qr-placeholder">
+                <div class="qr-box-mock">📷 Scan QR via GPay / PhonePe / Paytm</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Right Summary Col -->
+      <div class="checkout-right">
+        <h2>Order Summary</h2>
+        <div class="summary-card">
+          <label class="coupon-label">Privilege Code</label>
+          <div class="coupon-input-group">
+            <input type="text" placeholder="ROYAL10">
+            <button class="btn btn-emerald-sm">Apply Code</button>
+          </div>
+
+          <div class="summary-rows">
+            <div class="row"><span>Sub Total</span> <span>₹17,498</span></div>
+            <div class="row"><span>Complimentary Shipping</span> <span>FREE</span></div>
+            <div class="row"><span>Privilege Discount</span> <span>-₹1,498</span></div>
+            <hr>
+            <div class="row total-row"><span>Total Amount</span> <span>₹16,000</span></div>
+          </div>
+
+          <button class="btn btn-cognac btn-block">Pay Securely ₹16,000</button>
+          <div class="payment-badges">
+            <span>🛡️ 256-BIT SECURE</span>
+            <span class="razorpay-text"><em>Razorpay</em></span>
+            <span>🔒 GUARANTEED HANDCRAFT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer scroll-animate">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>Brogue <span>&amp;</span> Bloom</h3>
+        <p class="footer-desc">
+          Rooted in authentic leather craft and blooming in contemporary elegance. Bespoke handcrafted footwear for the discerning individual.
+        </p>
+        <div class="footer-socials">
+          <a href="#instagram">IG</a>
+          <a href="#behance">BE</a>
+          <a href="#linkedin">IN</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#collection-grid">Heritage Collection</a></li>
+          <li><a href="#about">Our Cobbling Craft</a></li>
+          <li><a href="#contact">Private Appointments</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Flagship Store &amp; Contact</h4>
+        <ul class="footer-contact-info">
+          <li><strong>Store Location:</strong><br>Rajajinagar, Bengaluru - 560010</li>
+          <li><strong>Phone:</strong><br><a href="tel:8197923241">+91 81979 23241</a></li>
+          <li><strong>Email:</strong><br><a href="mailto:info@brougeandbloom.com">info@brougeandbloom.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>The Gazette</h4>
+        <p class="footer-desc">Subscribe for private releases, seasonal leather care guides, and exclusive invites.</p>
+        <form class="footer-newsletter">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-flex">
+        <p>&copy; 2026 Brogue &amp; Bloom. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#privacy">Privacy Policy</a>
+          <a href="#terms">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
