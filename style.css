@@ -22,6 +22,7 @@
 
 body {
   font-family: var(--font-body);
+  font-size: 1.05rem; /* Increased base readability */
   background-color: #ffffff;
   color: var(--charcoal-dark);
   line-height: 1.6;
@@ -34,9 +35,9 @@ a {
 }
 
 .container {
-  max-width: 1380px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
 }
 
 .page-section {
